@@ -9,6 +9,6 @@
 
 Note that 3P/4P object layouts have not been created, coming soon (tm)
 
-Pick "Configure Mod"
+Pick "Configure Mod" to choose 2P/3P/4P:
 
 <img src="https://raw.githubusercontent.com/ShadowTheHedgehogHacking/ShadowRecompExtendedMultiplayer/main/res/preview.png" align="center" />

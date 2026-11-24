@@ -14,8 +14,7 @@
 			</Property>
 		</Group>
 
-		<Group name="Characters">
-
+		<Group name="Chara">
 			<Property name="ExtendedMultiplayerP1CharId" display="P1 Character" type="CharactersE"
 				defaultvalue="14">
 				<HelpText>Character for P1</HelpText>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+		<Group name="General">
+			<Property name="ExtendedMultiplayerPlayerCount" display="Number of players"
+				type="MPCount" defaultvalue="2">
+				<HelpText>How many people are playing</HelpText>
+			</Property>
+
+			<Property name="ShadowAndroidsNoEmbeddedWeapons" display="Disable Embedded Gun"
+				type="bool" defaultvalue="False">
+				<HelpText>Disable the built-in weapon for Androids, so they can pickup and drop weapons like regular Shadow</HelpText>
+			</Property>
+		</Group>
+
+		<Group name="Characters">
+
+			<Property name="ExtendedMultiplayerP1CharId" display="P1 Character" type="CharactersE"
+				defaultvalue="14">
+				<HelpText>Character for P1</HelpText>
+			</Property>
+
+			<Property name="ExtendedMultiplayerP2CharId" display="P2 Character" type="CharactersE"
+				defaultvalue="15">
+				<HelpText>Character for P2</HelpText>
+			</Property>
+
+			<Property name="ExtendedMultiplayerP3CharId" display="P3 Character" type="CharactersE"
+				defaultvalue="16">
+				<HelpText>Character for P3</HelpText>
+			</Property>
+
+			<Property name="ExtendedMultiplayerP4CharId" display="P4 Character" type="CharactersE"
+				defaultvalue="17">
+				<HelpText>Character for P4</HelpText>
+			</Property>
+		</Group>
+	</Groups>
+
+	<Enums>
+		<Enum name="MPCount">
+			<EnumMember name="2" display="2 Players" />
+			<EnumMember name="3" display="3 Players" />
+			<EnumMember name="4" display="4 Players" />
+		</Enum>
+
+		<Enum name="CharactersE">
+			<EnumMember name="14" display="Shadow" />
+			<EnumMember name="15" display="Yellow Android" />
+			<EnumMember name="16" display="Pink Gun Android" />
+			<EnumMember name="17" display="Blue Gun Android" />
+			<EnumMember name="18" display="Orange Cannon Android" />
+			<EnumMember name="19" display="Green Cannon Android" />
+		</Enum>
+	</Enums>
+</ConfigSchema>
